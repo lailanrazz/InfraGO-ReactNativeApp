@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import type {PropsWithChildren} from 'react';
+import type { PropsWithChildren } from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -29,7 +29,7 @@ type SectionProps = PropsWithChildren<{
   title: string;
 }>;
 
-function Section({children, title}: SectionProps): React.JSX.Element {
+function Section({ children, title }: SectionProps): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
@@ -76,15 +76,14 @@ function App(): React.JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
+          <Section title="Nama">
+            Laila Nur Azizah
           </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
+          <Section title="NIM">
+            22/500377/SV/21411
           </Section>
-          <Section title="Debug">
-            <DebugInstructions />
+          <Section title="Kelas">
+            PGPBL B
           </Section>
           <Section title="Learn More">
             Read the docs to discover what to do next:
