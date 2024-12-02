@@ -3,11 +3,15 @@ import React, { useEffect, useState } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { faGraduationCap, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+
+
 const Listdata = () => {
+
     const jsonUrl = 'http://10.0.2.2:3000/mahasiswa';
     const [isLoading, setLoading] = useState(true);
     const [dataUser, setDataUser] = useState({});
     const [refresh, setRefresh] = useState(false);
+
     useEffect(() => {
         fetch(jsonUrl)
           .then((response) => response.json())
@@ -42,6 +46,7 @@ const Listdata = () => {
           })
        }
        
+
  return (
     <SafeAreaView>
     {isLoading ? (
@@ -82,15 +87,19 @@ const Listdata = () => {
   color={'red'}
  />
 </View>
+
          </View>
        )}
      />
    </View>
  )}
 </SafeAreaView>
+
  )
 }
+
 export default Listdata
+
 const styles = StyleSheet.create({
     title: {
       paddingVertical: 12,

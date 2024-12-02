@@ -8,46 +8,53 @@ import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import {faUser} from '@fortawesome/free-solid-svg-icons';
 import { faUserGraduate } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
+import { faUserPen } from '@fortawesome/free-solid-svg-icons';
 import { WebView } from 'react-native-webview';
 import Createdata from './Createdata';
-import Datamahasiswa from './ListData';
+import Datamahasiswa from './Listdata';
+import Editdata from './Editdata';
 function HomeScreen() {
   return (
     <Createdata />
   );
 }
+
 function DataMahasiswaScreen() {
   return (
     <Datamahasiswa />
   );
 }
-function WebScreen() {
+
+function EditScreen() {
   return (
-    <WebView
-        source={{ uri: 'https://github.com/lailanrazz' }}
-        
-      />
+    <Editdata/>
   );
 }
+
 const Tab = createBottomTabNavigator();
+
 export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="Profile" component={HomeScreen} 
+        <Tab.Screen name="Tambah" component={HomeScreen} 
       options={{ headerShown: false,
         tabBarIcon: ({ color }) => (
-          <FontAwesomeIcon icon={faUser} color={color} size={20} />
+          <FontAwesomeIcon icon={faPlusCircle} color={color} size={20} />
         ),}}/>
         <Tab.Screen name="Mahasiswa" component={DataMahasiswaScreen}  options={{ headerShown: true,
         tabBarIcon: ({ color }) => (
           <FontAwesomeIcon icon={faUserGraduate} color={color} size={20} />
         ),}}/>
-      <Tab.Screen name="Github" component={WebScreen}  options={{ 
+
+      <Tab.Screen name="Edit" component={EditScreen}  options={{ headerShown: false,
         tabBarIcon: ({ color }) => (
-          <FontAwesomeIcon icon={faGithub} color={color} size={20} />
+          <FontAwesomeIcon icon={faUserPen} color={color} size={20} />
         ),}}/>
+
       </Tab.Navigator>
     </NavigationContainer>
   );
+
 }

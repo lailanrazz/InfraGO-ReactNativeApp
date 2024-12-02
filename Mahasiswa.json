@@ -1,0 +1,36 @@
+{
+  "mahasiswa": [
+    {
+      "id": "e3cf",
+      "first_name": "intan",
+      "last_name": "mulia",
+      "email": "Intanm1@gmail.com",
+      "kelas": "B",
+      "gender": "female"
+    },
+    {
+      "id": "9428",
+      "first_name": "Fathin",
+      "last_name": "Nabil",
+      "email": "fathinnabil@gmail.com",
+      "kelas": "A",
+      "gender": "male"
+    },
+    {
+      "id": "8871",
+      "first_name": "Rahmat",
+      "last_name": "Hidayat",
+      "email": "rahmathidayat@gmail.com",
+      "kelas": "A",
+      "gender": "male"
+    },
+    {
+      "id": "368e",
+      "first_name": "Laila",
+      "last_name": "Azizah",
+      "email": "LailaAzizah@gmail.com",
+      "kelas": "B",
+      "gender": "female"
+    }
+  ]
+}
