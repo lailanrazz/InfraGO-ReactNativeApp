@@ -1,4 +1,4 @@
-package com.pgpblacara7
+package com.InfraGO
 
 import android.app.Application
 import com.facebook.react.PackageList

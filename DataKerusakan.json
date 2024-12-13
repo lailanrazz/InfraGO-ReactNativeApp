@@ -1,0 +1,150 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.3649, -7.80339]
+        },
+        "properties": {
+          "id": 1,
+          "nama": "Ahmad Budi",
+          "deskripsi": "Lubang besar di jalan utama",
+          "tingkat_kerusakan": "berat",
+          "waktu_dilaporkan": "12/13/2024, 5:10:00 PM",
+          "laporan": "Laporan Kerusakan Jalan #1",
+          "gambar": "https://imgcdn.espos.id/@espos/images/2023/01/lubang-jalan-klaten.jpg?quality=60"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.3617, -7.7952]
+        },
+        "properties": {
+          "id": 2,
+          "nama": "Dewi Saraswati",
+          "deskripsi": "Paving yang terkelupas menyebabkan kecelakaan",
+          "tingkat_kerusakan": "sedang",
+          "waktu_dilaporkan": "12/13/2024, 5:20:00 PM",
+          "laporan": "Laporan Kerusakan Jalan #2",
+          "gambar": "https://jendelasatu.com/wp-content/uploads/2023/03/IMG-20230321-WA0003.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.3652, -7.7944]
+        },
+        "properties": {
+          "id": 3,
+          "nama": "Siti Rahma",
+          "deskripsi": "Goresan panjang di jalan",
+          "tingkat_kerusakan": "sedang",
+          "waktu_dilaporkan": "12/13/2024, 5:30:00 PM",
+          "laporan": "Laporan Kerusakan Jalan #3",
+          "gambar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe9N3T59KVXvwjqvovOeyQUoI8MMX_6XAyV5CwAhmIiXq-ZEaRSM6-VqWcJifzDV8aHk4&usqp=CAU"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.3660, -7.7935]
+        },
+        "properties": {
+          "id": 4,
+          "nama": "Budi Santoso",
+          "deskripsi": "Jalan berlubang menyebabkan kecelakaan",
+          "tingkat_kerusakan": "berat",
+          "waktu_dilaporkan": "12/13/2024, 5:40:00 PM",
+          "laporan": "Laporan Kerusakan Jalan #4",
+          "gambar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-_O0Y9SIy8_qMKslucNsbbn3EIEk90YzIvA&s"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.3673, -7.7919]
+        },
+        "properties": {
+          "id": 5,
+          "nama": "Ali Rahman",
+          "deskripsi": "Paving rusak di dekat trotoar",
+          "tingkat_kerusakan": "sedang",
+          "waktu_dilaporkan": "12/13/2024, 5:50:00 PM",
+          "laporan": "Laporan Kerusakan Jalan #5",
+          "gambar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEy7Pc4eTNgASOvJEX_Z6l7B3Ngp6pHxjpGw&s"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.3680, -7.7920]
+        },
+        "properties": {
+          "id": 6,
+          "nama": "Nina Lestari",
+          "deskripsi": "Tanah ambles menyebabkan jalur terhalang",
+          "tingkat_kerusakan": "sedang",
+          "waktu_dilaporkan": "12/13/2024, 6:00:00 PM",
+          "laporan": "Laporan Kerusakan Jalan #6",
+          "gambar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToCola-20nHD-62W2LNcImf-bIxhQAiTKnKg&s"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.3695, -7.7902]
+        },
+        "properties": {
+          "id": 7,
+          "nama": "Rudi Setiawan",
+          "deskripsi": "Papan peringatan rusak di persimpangan",
+          "tingkat_kerusakan": "ringan",
+          "waktu_dilaporkan": "12/13/2024, 6:10:00 PM",
+          "laporan": "Laporan Kerusakan Jalan #7",
+          "gambar": "https://awsimages.detik.net.id/customthumb/2012/06/10/10/Gatsu-(Dhuran)-dalam.jpg?w=600&q=90"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.3702, -7.7899]
+        },
+        "properties": {
+          "id": 8,
+          "nama": "Siti Nurlaila",
+          "deskripsi": "Kerusakan jalan beton pada perempatan",
+          "tingkat_kerusakan": "berat",
+          "waktu_dilaporkan": "12/13/2024, 6:20:00 PM",
+          "laporan": "Laporan Kerusakan Jalan #8",
+          "gambar": "https://radarbanyumas.disway.id/upload/2019/02/Kerusakan-Jalur-Lingkar-Kian-Parah.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.3712, -7.7887]
+        },
+        "properties": {
+          "id": 9,
+          "nama": "Fajar Nugroho",
+          "deskripsi": "Jalan berdebu dan rusak",
+          "tingkat_kerusakan": "sedang",
+          "waktu_dilaporkan": "12/13/2024, 6:30:00 PM",
+          "laporan": "Laporan Kerusakan Jalan #9",
+          "gambar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmfWo-mShS5apy3aea0sgbvdwuBcnKCZvb2w&s"
+        }
+      }
+    ]
+  }
+  

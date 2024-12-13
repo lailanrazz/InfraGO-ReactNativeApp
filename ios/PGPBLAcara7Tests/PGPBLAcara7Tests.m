@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface PGPBLAcara7Tests : XCTestCase
+@interface InfraGOTests : XCTestCase
 
 @end
 
-@implementation PGPBLAcara7Tests
+@implementation InfraGOTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

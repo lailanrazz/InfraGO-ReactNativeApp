@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "PGPBLAcara7.app"
-               BlueprintName = "PGPBLAcara7"
-               ReferencedContainer = "container:PGPBLAcara7.xcodeproj">
+               BuildableName = "InfraGO.app"
+               BlueprintName = "InfraGO"
+               ReferencedContainer = "container:InfraGO.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "PGPBLAcara7Tests.xctest"
-               BlueprintName = "PGPBLAcara7Tests"
-               ReferencedContainer = "container:PGPBLAcara7.xcodeproj">
+               BuildableName = "InfraGOTests.xctest"
+               BlueprintName = "InfraGOTests"
+               ReferencedContainer = "container:InfraGO.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "PGPBLAcara7.app"
-            BlueprintName = "PGPBLAcara7"
-            ReferencedContainer = "container:PGPBLAcara7.xcodeproj">
+            BuildableName = "InfraGO.app"
+            BlueprintName = "InfraGO"
+            ReferencedContainer = "container:InfraGO.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "PGPBLAcara7.app"
-            BlueprintName = "PGPBLAcara7"
-            ReferencedContainer = "container:PGPBLAcara7.xcodeproj">
+            BuildableName = "InfraGO.app"
+            BlueprintName = "InfraGO"
+            ReferencedContainer = "container:InfraGO.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
