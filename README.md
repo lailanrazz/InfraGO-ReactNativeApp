@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
@@ -82,3 +83,7 @@ To learn more about React Native, take a look at the following resources:
 # ReactNative-PGPBL
 a framework react native that integrated with Android Studio
 >>>>>>> 5656bad752646ce9f38f33cdc340bb950002e797
+=======
+# InfraGO-ReactNativeApp
+ InfraGO : Aplikasi Pemantauan dan Pelaporan Kerusakan Infrastruktur Jalan Berbasis Lokasi. InfraGO sendiri adalah gabungan dari “infrastruktur” dan “go,” yaitu aplikasi yang dapat membantu melaporkan perbaikan infrastruktur seperti jalan dengan cepat dan efisien. 
+>>>>>>> d2d0649a3e4bd101b034fed8a5fa0a2eec75b94f
