@@ -1,89 +1,46 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# InfraGO: Aplikasi Pemantauan dan Pelaporan Kerusakan Infrastruktur Jalan Berbasis Lokasi
 
-# Getting Started
+**InfraGO** adalah aplikasi untuk pemantauan dan pelaporan kerusakan infrastruktur jalan berbasis lokasi. Dengan menggunakan teknologi berbasis lokasi, aplikasi ini memungkinkan pengguna untuk dengan cepat melaporkan kerusakan infrastruktur jalan di sekitar mereka.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Demo Produk
 
-## Step 1: Start the Metro Server
+## Nama Produk
+**InfraGO**: Aplikasi Pemantauan dan Pelaporan Kerusakan Infrastruktur Jalan Berbasis Lokasi
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Deskripsi Produk
+InfraGO adalah aplikasi berbasis lokasi yang dirancang untuk mempermudah masyarakat melaporkan kerusakan jalan atau infrastruktur lainnya secara langsung dari perangkat mobile mereka. Dengan adanya fitur pelaporan yang mudah, aplikasi ini dapat membantu pemerintah atau pihak terkait untuk cepat merespons dan melakukan perbaikan.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## Komponen Pembangun Produk
+- **React Native**: Framework pengembangan aplikasi mobile lintas platform.
+- **Firebase**: Digunakan untuk autentikasi pengguna dan penyimpanan data.
+- **Google Maps API**: Untuk penentuan lokasi kerusakan yang dilaporkan.
+- **Backend (Node.js, Express)**: Menangani permintaan API dan pengelolaan data.
+
+## Sumber Data
+- **Google Maps API**: Data lokasi dan peta digunakan untuk memetakan kerusakan infrastruktur.
+- **Firebase**: Data pengguna dan laporan kerusakan disimpan dan dikelola menggunakan Firebase.
+
+## Tangkapan Layar Komponen Penting Produk
+
+![4](https://github.com/user-attachments/assets/9a1093b4-ed93-46fb-bd61-41b0d62a9086)
+![3](https://github.com/user-attachments/assets/8c6020cd-e23e-4b68-9dba-42c7c1d621f6)
+![2](https://github.com/user-attachments/assets/6323fa2c-40d9-4ce6-8033-54c1db366b02)
+![1](https://github.com/user-attachments/assets/b6a6e96a-4f8b-4904-95dc-e9cdbdc34b0e)
+![10](https://github.com/user-attachments/assets/1608639a-4d36-416c-87f4-925079417ebf)
+![9](https://github.com/user-attachments/assets/05d7f64a-4480-42eb-9f86-006da95d969c)
+![8](https://github.com/user-attachments/assets/18c272f4-62ad-474a-8dd9-2fbac7bc0aed)
+![7](https://github.com/user-attachments/assets/a78a1d56-14a7-4f5b-a138-8713f681ff3e)
+![6](https://github.com/user-attachments/assets/013d680d-87c5-47b2-9125-7d32e4c15713)
+![5](https://github.com/user-attachments/assets/cf6f1514-ecc9-4454-a8ce-f3268461a266)
+
+
+## Getting Started
+
+Untuk memulai pengembangan aplikasi ini, pastikan Anda sudah mengikuti langkah-langkah pengaturan lingkungan React Native.
+
+### Step 1: Install Dependencies
+
+Pastikan Anda sudah menginstal Node.js dan NPM. Kemudian, jalankan perintah berikut untuk menginstal dependensi:
 
 ```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-=======
-# ReactNative-PGPBL
-a framework react native that integrated with Android Studio
->>>>>>> 5656bad752646ce9f38f33cdc340bb950002e797
-=======
-# InfraGO-ReactNativeApp
- InfraGO : Aplikasi Pemantauan dan Pelaporan Kerusakan Infrastruktur Jalan Berbasis Lokasi. InfraGO sendiri adalah gabungan dari “infrastruktur” dan “go,” yaitu aplikasi yang dapat membantu melaporkan perbaikan infrastruktur seperti jalan dengan cepat dan efisien. 
->>>>>>> d2d0649a3e4bd101b034fed8a5fa0a2eec75b94f
+npm install
