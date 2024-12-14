@@ -4,6 +4,10 @@
 
 ## Demo Produk
 
+Lihat demo produk **InfraGO** melalui video berikut:
+
+[![Demo InfraGO](https://img.youtube.com/vi/cTtLfKMo5EA/0.jpg)](https://www.youtube.com/watch?v=cTtLfKMo5EA)
+
 ## Nama Produk
 **InfraGO**: Aplikasi Pemantauan dan Pelaporan Kerusakan Infrastruktur Jalan Berbasis Lokasi
 
@@ -22,17 +26,24 @@ InfraGO adalah aplikasi berbasis lokasi yang dirancang untuk mempermudah masyara
 
 ## Tangkapan Layar Komponen Penting Produk
 
-![4](https://github.com/user-attachments/assets/9a1093b4-ed93-46fb-bd61-41b0d62a9086)
-![3](https://github.com/user-attachments/assets/8c6020cd-e23e-4b68-9dba-42c7c1d621f6)
-![2](https://github.com/user-attachments/assets/6323fa2c-40d9-4ce6-8033-54c1db366b02)
-![1](https://github.com/user-attachments/assets/b6a6e96a-4f8b-4904-95dc-e9cdbdc34b0e)
-![10](https://github.com/user-attachments/assets/1608639a-4d36-416c-87f4-925079417ebf)
-![9](https://github.com/user-attachments/assets/05d7f64a-4480-42eb-9f86-006da95d969c)
-![8](https://github.com/user-attachments/assets/18c272f4-62ad-474a-8dd9-2fbac7bc0aed)
-![7](https://github.com/user-attachments/assets/a78a1d56-14a7-4f5b-a138-8713f681ff3e)
-![6](https://github.com/user-attachments/assets/013d680d-87c5-47b2-9125-7d32e4c15713)
-![5](https://github.com/user-attachments/assets/cf6f1514-ecc9-4454-a8ce-f3268461a266)
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <img src="https://github.com/user-attachments/assets/9a1093b4-ed93-46fb-bd61-41b0d62a9086" width="200" />
+  <img src="https://github.com/user-attachments/assets/8c6020cd-e23e-4b68-9dba-42c7c1d621f6" width="200" />
+  <img src="https://github.com/user-attachments/assets/6323fa2c-40d9-4ce6-8033-54c1db366b02" width="200" />
+  <img src="https://github.com/user-attachments/assets/b6a6e96a-4f8b-4904-95dc-e9cdbdc34b0e" width="200" />
+</div>
 
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <img src="https://github.com/user-attachments/assets/1608639a-4d36-416c-87f4-925079417ebf" width="200" />
+  <img src="https://github.com/user-attachments/assets/05d7f64a-4480-42eb-9f86-006da95d969c" width="200" />
+  <img src="https://github.com/user-attachments/assets/18c272f4-62ad-474a-8dd9-2fbac7bc0aed" width="200" />
+  <img src="https://github.com/user-attachments/assets/a78a1d56-14a7-4f5b-a138-8713f681ff3e" width="200" />
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <img src="https://github.com/user-attachments/assets/013d680d-87c5-47b2-9125-7d32e4c15713" width="200" />
+  <img src="https://github.com/user-attachments/assets/cf6f1514-ecc9-4454-a8ce-f3268461a266" width="200" />
+</div>
 
 ## Getting Started
 
